@@ -26,8 +26,8 @@ if st.button("Predecir"):
     if pred == 0:
         st.success("✅ No sufrirá del corazón")
         st.image("https://img.freepik.com/foto-gratis/feliz-mujer-atractiva-bailando-divirtiendose-levantando-manos-preocupaciones-disfrutando-musica-pie-contra-pared-blanca_176420-38816.jpg",
-                 caption="Salud en buen estado", use_column_width=True)
+                 caption="Salud en buen estado", width="stretch")
     else:
         st.error("⚠️ Sufrirá del corazón")
         st.image("https://th.bing.com/th/id/OIP.gvXGXrJ3RKcn0khzYqFc7QHaD4?w=309&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-                 caption="Posible riesgo cardíaco", use_column_width=True)
+                 caption="Posible riesgo cardíaco", width="stretch")
